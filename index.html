@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+ 
+    <title>Cardiac Health Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+    <!-- v4 -->
+    <script src='https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js'></script>
+</head>
+
+
+<body>
+    <h1 > Cardiac health indicator</h1>
+    <form autocomplete="off">
+        <label for="img">Select image:</label>
+        <input type="file" id="img" name="img" accept="image/*">
+        <input type="button" id="btn-recognize" class="button" value="Recognize">
+    </form>
+    <div id="output">Cardiac Score<br>(ideal = 0)</div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>

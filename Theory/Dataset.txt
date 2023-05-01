@@ -1,0 +1,17 @@
+parameter considered for chances of heart diseases:
+
+smoking y or n
+diabetes y or n
+blood pressure systolic 130   diastolic70
+Cholestrol test:(desired parameters written)
+   LDL cholesterol.      (bad) <130 & if(diabetes) <100     so for an average value we can consider <100mg/dl as safe or good LDL.
+                                  if(diabetes & smoking) <70            
+                                    (mg/dl)
+   
+   HDL cholesterol.  >40 mg/dL
+ Triglyceride   .  <150 mg/dL
+
+   
+
+
+   

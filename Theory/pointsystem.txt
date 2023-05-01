@@ -1,0 +1,7 @@
+The formula for cardiac health indicator as devised by me is,
+        sum of deviation of the different heath indicators for an individual from the actual value.
+
+if the score is zero this means there is no deviation, and all is fine but in case there is significant deviation,
+more than five for each then the following formula will give a non zero term and we will get a non zero cardiac health number.
+
+   formula = sigma of( (actual value which is not in correct range - ideal value)/5 ).
